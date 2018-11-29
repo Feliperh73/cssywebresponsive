@@ -1,21 +1,29 @@
 * {
+  font-family: 'Dancing Script', cursive;
   padding: 0px;
   margin: 0px;
 }
 
 body{
-  background-color: #5b7989;
-  text-align: center;
+background-color: #5b7989;
 }
 
 .contenedor {
-  max-width: 900px;
+margin: auto;
+background-color: #5b7989;
+max-width: 900px;
+border-radius: 10px 10px 10px 10px;
+}
+
+@media (max-width: 900px){
+ .contenedor {
+   width: 100%
+ }
 }
 
 .header h1{
   text-align: left;
   color: #ffffff;
-  text-shadow: 2px #02010a;
 }
 
 .subrayado {
@@ -25,10 +33,12 @@ body{
 .central{
   background-color: #82c3a6;
   text-align: center;
+  border: 1px;
 }
 
 .imagencentral img{
   width: 85%;
+  box-shadow: 2px 2px #02010a;
 }
 
 .secundaria{
@@ -49,7 +59,6 @@ body{
 }
 
 .secundaria div img{
-  padding: 10px;
   width: 80%;
   height: 70%;
 }
@@ -59,23 +68,25 @@ body{
 }
 
 .retratos img:hover{
-  transform: translate(-5px 20px);
+  transform: translate(5px, -20px);
 }
 
 .paisajes img{
-  text-shadow: 2px 2px #82c3a6;
+  box-shadow: 2px 2px #02010a;
 }
 
 .retratos img{
-  text-shadow: 2px 2px #82c3a6;
+  box-shadow: 2px 2px #02010a;
 }
 
 
 .footer{
-  display: flex; flex-flow: row wrap;
-  background-color: #C6d5c5;
-  border: 1px;
-  text-align: center;
+display: flex;
+flex-flow: row;
+background-color: #C6d5c5;
+border: 1px;
+text-align: center;
+border-radius: 0px 0px 10px 10px;
 }
 
 .footer div{
