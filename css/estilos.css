@@ -1,0 +1,80 @@
+body{
+  background-color: #5b7989;
+}
+
+header{
+  border-radius: 10px 10px 0 0;
+}
+
+.header h1{
+  text-align: left;
+  color: #ffffff;
+  text-shadow: 2px #02010a;
+}
+
+.subrayado {
+  text-decoration: none;
+}
+
+.central{
+  background-color: #82c3a6;
+  text-align: center;
+}
+
+.imagencentral img{
+  width: 85%;
+}
+
+.secundaria{
+  display: flex; flex-flow: row wrap;
+  background-color: #d5c75f;
+  border: 1px;
+  text-align: center;
+}
+
+.secundaria div{
+  width: 50%;
+}
+
+@media (max-width: 900px){
+ .secundaria div{
+   width: 100%
+ }
+}
+
+.secundaria div img{
+  padding: 10px;
+  width: 80%;
+  height: 70%;
+}
+
+.paisajes img:hover{
+  transform: rotate(10deg);
+}
+
+.retratos img:hover{
+  transform: translate(-5px 20px);
+}
+
+.paisajes img{
+  text-shadow: 2px 2px #82c3a6;
+}
+
+.retratos img{
+  text-shadow: 2px 2px #82c3a6;
+}
+
+footer {
+ border-adius: 0 0 10px 10px;
+}
+
+.footer{
+  display: flex; flex-flow: row wrap;
+  background-color: #C6d5c5;
+  border: 1px;
+  text-align: center;
+}
+
+.footer div{
+  width: 50%;
+}
