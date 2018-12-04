@@ -5,14 +5,14 @@
 }
 
 body{
-background-color: #5b7989;
+background-color: #000000;
 }
 
 .contenedor {
 margin: auto;
 background-color: #5b7989;
 max-width: 900px;
-border-radius: 10px 10px 10px 10px;
+border-radius: 10px 10px 0px 0px;
 }
 
 @media (max-width: 900px){
@@ -21,9 +21,25 @@ border-radius: 10px 10px 10px 10px;
  }
 }
 
+@media (min-width: 900px){
+ .contenedor {
+   width: 100%
+ }
+}
+
 .header h1{
   text-align: left;
   color: #ffffff;
+}
+
+.header {
+  width: 100%;
+  min-height: 100px;
+  display: flex;flex-flow: row wrap;
+}
+
+.menubar {
+ width: 50%;
 }
 
 .subrayado {
@@ -91,4 +107,10 @@ border-radius: 0px 0px 10px 10px;
 
 .footer div{
   width: 50%;
+}
+
+div .cental{
+width: 96%;
+max-width: 960px;
+margin: 0 auto;
 }
