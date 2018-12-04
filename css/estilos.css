@@ -38,8 +38,14 @@ border-radius: 10px 10px 0px 0px;
   display: flex;flex-flow: row wrap;
 }
 
-.menubar {
- width: 50%;
+.titulo div{
+  width: 80%;
+  text-align: left;
+}
+
+.menubar div{
+ width: 20%;
+ text-align: right;
 }
 
 .subrayado {
@@ -113,4 +119,10 @@ div .cental{
 width: 96%;
 max-width: 960px;
 margin: 0 auto;
+}
+
+@media screen and (max-width: 900px){
+  .secundaria{
+    width: 100%;
+  }
 }
