@@ -67,12 +67,6 @@ li {
   width: 50%;
 }
 
-@media (max-width: 900px){
- .secundaria div{
-   width: 100%
- }
-}
-
 .secundaria div img{
   width: 80%;
   height: 70%;
@@ -115,16 +109,22 @@ margin: 0 auto;
 }
 
 @media (max-width:900px){
-.footer {
-   width: 100%
- }
- .secundaria {
-   width: 100%;
- }
- .contenedor {
-   width: 100%
- }
- .menubar{
-   width: 100%;
- }
+header{
+    height: 33% !important;
+    display: flex;
+    flex-direction: column;
+}
+.secundaria div{
+  width: 100%
+}
+.secundaria{
+    height: 33% !important;
+    display: flex;
+    flex-direction: column;
+}
+.footer{
+    height: 33% !important;
+    display: flex;
+    flex-direction: column;
+}
 }
