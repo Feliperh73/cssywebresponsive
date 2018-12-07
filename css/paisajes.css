@@ -45,49 +45,12 @@ li {
   margin-right: 5px;
 }
 
-.central{
-  background-color: #82c3a6;
-  text-align: center;
-  border: 1px;
-}
-
-.imagencentral img{
-  width: 85%;
-  box-shadow: 2px 2px #02010a;
-}
-
-.secundaria{
-  display: flex; flex-flow: row wrap;
+.forest {
   background-color: #d5c75f;
-  border: 1px;
   text-align: center;
+  border: 1px;
+  display: inline-flex
 }
-
-.secundaria div{
-  width: 50%;
-}
-
-.secundaria div img{
-  width: 80%;
-  height: 70%;
-}
-
-.paisajes img:hover{
-  transform: rotate(10deg);
-}
-
-.retratos img:hover{
-  transform: translate(5px, -20px);
-}
-
-.paisajes img{
-  box-shadow: 2px 2px #02010a;
-}
-
-.retratos img{
-  box-shadow: 2px 2px #02010a;
-}
-
 
 .footer{
 display: flex;
@@ -108,14 +71,7 @@ header{
     display: flex;
     flex-direction: column;
 }
-.secundaria div{
-  width: 100%
-}
-.secundaria{
-    height: 33% !important;
-    display: flex;
-    flex-direction: column;
-}
+
 header div h1{
   text-align: center !important;
 }
@@ -127,9 +83,4 @@ header div h1{
     display: flex;
     flex-direction: column;
 }
-}
-
-body {
-  animation-duration: 10s;
-  animation-name: slidein;
 }
