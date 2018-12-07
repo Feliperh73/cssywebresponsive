@@ -49,8 +49,19 @@ li {
   background-color: #d5c75f;
   text-align: center;
   border: 1px;
-  display: inline-flex
+  display: flex; flex-flow column wrap;
 }
+
+.forest div {
+  width: 100%;
+  flex-flow: column wrap;
+}
+
+.forest div img{
+  width: 70%;
+  height: 80%;
+}
+
 
 .footer{
 display: flex;
