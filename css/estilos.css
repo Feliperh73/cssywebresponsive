@@ -122,9 +122,58 @@ header{
     display: flex;
     flex-direction: column;
 }
+header div h1{
+  text-align: center !important;
+}
+.menubar li{
+  text-align: center !important;
+}
 .footer{
     height: 33% !important;
     display: flex;
     flex-direction: column;
+}
+}
+
+body {
+  animation-duration: 10s;
+  animation-name: slidein;
+}
+
+@keyframes slidein {
+  0% {
+   from {
+    margin-top: 0%;
+    width: 100%
+  }
+
+  to {
+    margin-top: 150%;
+    width: 100%;
+  }
+}
+
+60% {
+ from {
+  margin-top: 150%;
+  width: 100%
+}
+
+to {
+  margin-top: -5%;
+  width: 100%;
+}
+}
+
+100% {
+ from {
+  margin-top: 0%;
+  width: 100%
+}
+
+to {
+  margin-top: 150%;
+  width: 100%;
+}
 }
 }
