@@ -13,6 +13,7 @@ margin: auto;
 background-color: #5b7989;
 max-width: 900px;
 border-radius: 10px 10px 0px 0px;
+ animation: animationContenido 1.5s ;
 }
 
 header {
@@ -47,20 +48,23 @@ li {
 
 .forest {
   background-color: #d5c75f;
-  text-align: center;
-  border: 1px;
-  display: flex; flex-flow column wrap;
 }
 
 .forest div {
-  width: 100%;
-  flex-flow: column wrap;
+ display: flex;
+ align-items: center;
+ justify-content: space-around;
+ padding: 0;
 }
 
-.forest div img{
-  width: 70%;
-  height: 80%;
+.forest div div{
+  margin: 20px;
 }
+
+.forest div img {
+  width: 100%
+}
+
 
 
 .footer{
@@ -95,3 +99,15 @@ header div h1{
     flex-direction: column;
 }
 }
+
+@keyframes animationContenido {
+  0% {
+     margin-top: 150%;
+    }
+  60% {
+    margin-top: -5%;
+    }
+   100% {
+     margin-top: 0;
+     }
+   }
